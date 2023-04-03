@@ -1,0 +1,39 @@
+{
+  "id": "10e4255a-4d36-43a8-ad94-bb329c9b50cd",
+  "name": "Blocked customer notification",
+  "publisher": "github.com/document-output",
+  "version": "1.0.0.0",
+  "brief": "PTE app to demonstrate a notification for blocked customers",
+  "description": "PTE app to demonstrate a notification for blocked customers",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://github.com/document-output/blocked-customer-notification",
+  "url": "https://github.com/document-output/blocked-customer-notification",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "f4b69b55-c90d-4937-8f53-2742898fa948",
+      "publisher": "Continia Software",
+      "name": "Continia Document Output",
+      "version": "7.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 61200,
+      "to": 61209
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
