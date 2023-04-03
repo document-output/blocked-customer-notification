@@ -28,9 +28,10 @@ codeunit 61200 "PTE DO BCN Management"
             exit;
 
         if EmailTemplateLine.FindFirst() then begin
+            PTEDOBCNCustomerLogfile.SetRecFilter();
             FilterRecRef.GetTable(PTEDOBCNCustomerLogfile);
             VariantRecord := PTEDOBCNCustomerLogfile;
-            EmailTemplateLine.QueueMail(FilterRecRef, VariantRecord, 0, 1);
+            EmailTemplateLine.QueueMail(FilterRecRef, VariantRecord, 0, 0);
         end;
 
     end;
